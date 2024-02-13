@@ -1,5 +1,7 @@
 # Custom Cursor with HTML and CSS
 
+Updated REadme
+
 This repository contains code for implementing a custom cursor using HTML and CSS. With this setup, you can easily create and customize your own cursor style to enhance the user experience on your website.
 
 ## Table of Contents
