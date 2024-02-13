@@ -10,6 +10,7 @@ window.addEventListener("mousemove", (e) => {
   cursorDot.style.left = `${posX}px`;
   cursorDot.style.top = `${posY}px`;
 
+  // Updated timing
   cursorOutline.animate(
     {
       left: `${posX}px`,
@@ -24,8 +25,6 @@ window.addEventListener("mousemove", (e) => {
 
 window.addEventListener("click", () => {
   cursorOutline.classList.add("expand");
-
-  console.log("ehhli");
 
   setTimeout(() => {
     cursorOutline.classList.remove("expand");
