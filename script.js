@@ -10,13 +10,14 @@ window.addEventListener("mousemove", (e) => {
   cursorDot.style.left = `${posX}px`;
   cursorDot.style.top = `${posY}px`;
 
+  // Updated timing
   cursorOutline.animate(
     {
       left: `${posX}px`,
       top: `${posY}px`,
     },
     {
-      duration: 400,
+      duration: 500,
       fill: "forwards",
     }
   );
