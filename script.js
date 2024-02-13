@@ -16,7 +16,7 @@ window.addEventListener("mousemove", (e) => {
       top: `${posY}px`,
     },
     {
-      duration: 500,
+      duration: 400,
       fill: "forwards",
     }
   );
