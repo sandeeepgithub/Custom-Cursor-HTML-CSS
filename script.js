@@ -25,8 +25,6 @@ window.addEventListener("mousemove", (e) => {
 window.addEventListener("click", () => {
   cursorOutline.classList.add("expand");
 
-  console.log("ehhli");
-
   setTimeout(() => {
     cursorOutline.classList.remove("expand");
   }, 500);
